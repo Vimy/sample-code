@@ -1,0 +1,44 @@
+PODS:
+  - ARChromeActivity (1.0.5)
+  - CRToast (0.0.9)
+  - DZNEmptyDataSet (1.8.1)
+  - KINWebBrowser (1.3.2):
+    - ARChromeActivity (= 1.0.5)
+    - TUSafariActivity (= 1.0.4)
+  - Onboard (2.3.3)
+  - SVProgressHUD (2.2.5)
+  - TUSafariActivity (1.0.4)
+  - VTAcknowledgementsViewController (2.0.1)
+
+DEPENDENCIES:
+  - CRToast
+  - DZNEmptyDataSet
+  - KINWebBrowser
+  - Onboard
+  - SVProgressHUD
+  - VTAcknowledgementsViewController
+
+SPEC REPOS:
+  trunk:
+    - ARChromeActivity
+    - CRToast
+    - DZNEmptyDataSet
+    - KINWebBrowser
+    - Onboard
+    - SVProgressHUD
+    - TUSafariActivity
+    - VTAcknowledgementsViewController
+
+SPEC CHECKSUMS:
+  ARChromeActivity: 821c7849b566f49583987468733a896fee35aa4d
+  CRToast: 5a78c22b921c5ed3487488af605bc403a9c92fed
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  KINWebBrowser: 27aa857a2aa39063ed102cca781d130b679d205f
+  Onboard: 4d6e943e20bdd6bc229df967a347dd7514bc2a6f
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TUSafariActivity: afc55a00965377939107ce4fdc7f951f62454546
+  VTAcknowledgementsViewController: 2cae5539fb84081196ab00d267caad390f418ce6
+
+PODFILE CHECKSUM: 07700f23ae882842ce7c5e2ea0872783bda5fecd
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>WiiBalanceBoardMenuApp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>393B69DC1DEE25EA00923CB2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>393B69F21DEE25EA00923CB2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>393B69FD1DEE25EA00923CB2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

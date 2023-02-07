@@ -1,0 +1,6 @@
+framework module Pods_WiiBalanceBoardMenuApp {
+  umbrella header "Pods-WiiBalanceBoardMenuApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

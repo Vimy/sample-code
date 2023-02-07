@@ -1,0 +1,59 @@
+{
+  "default": {
+    "keyword": {
+      "fonts": [
+        {
+          "font": "./fonts/OpenSans-Regular.ttf",
+          "supported": ["de-DE", "en-US", "es-ES", "fr-FR", "it-IT", "nl-NL", "sv-SE", "pt-BR"]
+        }
+      ]
+    },
+    "title": {
+      "fonts": [
+        {
+          "font": "./fonts/OpenSans-Regular.ttf",
+          "supported": ["de-DE", "en-US", "es-ES", "fr-FR", "it-IT", "nl-NL", "sv-SE", "pt-BR"]
+        }
+        
+      ],
+      "color": "#545454"
+    },
+    "background": "./background.jpg",
+    "padding": 50
+  },
+
+
+  "data": [
+    {
+      "filter": "01about",
+      "keyword": {
+        "color": "#d21559"
+      }
+    },
+    {
+      "filter": "02ReadingList",
+      "keyword": {
+        "color": "#feb009"
+      }
+    },
+    {
+      "filter": "03Edit",
+      "keyword": {
+        "color": "#aa4dbc"
+      }
+    },
+     {
+      "filter": "04Extension",
+      "keyword": {
+        "color": "#feb009"
+      }
+    },
+    {
+      "filter": "04ExtensionReader",
+      "keyword": {
+        "color": "#d21559"
+      }
+    }
+    
+  ]
+}

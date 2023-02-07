@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C2917AD5E7A5190D012788 /* Pods_WiiBalanceBoardMenuApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C43DC2A8F55267E6DC87465E /* Pods_WiiBalanceBoardMenuApp.framework */; };
+		393B69E21DEE25EA00923CB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 393B69E11DEE25EA00923CB2 /* AppDelegate.m */; };
+		393B69E51DEE25EA00923CB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 393B69E41DEE25EA00923CB2 /* main.m */; };
+		393B69E81DEE25EA00923CB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 393B69E71DEE25EA00923CB2 /* ViewController.m */; };
+		393B69EA1DEE25EA00923CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 393B69E91DEE25EA00923CB2 /* Assets.xcassets */; };
+		393B69ED1DEE25EA00923CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 393B69EB1DEE25EA00923CB2 /* Main.storyboard */; };
+		393B69F81DEE25EA00923CB2 /* WiiBalanceBoardMenuAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 393B69F71DEE25EA00923CB2 /* WiiBalanceBoardMenuAppTests.m */; };
+		393B6A031DEE25EA00923CB2 /* WiiBalanceBoardMenuAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 393B6A021DEE25EA00923CB2 /* WiiBalanceBoardMenuAppUITests.m */; };
+		393B6AA21DEE53D200923CB2 /* WiiRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 393B6A9E1DEE53D200923CB2 /* WiiRemote.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		393B6AA31DEE53D200923CB2 /* WiiRemoteDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = 393B6AA01DEE53D200923CB2 /* WiiRemoteDiscovery.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		393B69F41DEE25EA00923CB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 393B69D51DEE25EA00923CB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 393B69DC1DEE25EA00923CB2;
+			remoteInfo = WiiBalanceBoardMenuApp;
+		};
+		393B69FF1DEE25EA00923CB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 393B69D51DEE25EA00923CB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 393B69DC1DEE25EA00923CB2;
+			remoteInfo = WiiBalanceBoardMenuApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		393B69DD1DEE25EA00923CB2 /* WiiBalanceBoardMenuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiiBalanceBoardMenuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		393B69E01DEE25EA00923CB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		393B69E11DEE25EA00923CB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		393B69E41DEE25EA00923CB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		393B69E61DEE25EA00923CB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		393B69E71DEE25EA00923CB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		393B69E91DEE25EA00923CB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		393B69EC1DEE25EA00923CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		393B69EE1DEE25EA00923CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		393B69F31DEE25EA00923CB2 /* WiiBalanceBoardMenuAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiiBalanceBoardMenuAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		393B69F71DEE25EA00923CB2 /* WiiBalanceBoardMenuAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiiBalanceBoardMenuAppTests.m; sourceTree = "<group>"; };
+		393B69F91DEE25EA00923CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		393B69FE1DEE25EA00923CB2 /* WiiBalanceBoardMenuAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiiBalanceBoardMenuAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		393B6A021DEE25EA00923CB2 /* WiiBalanceBoardMenuAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiiBalanceBoardMenuAppUITests.m; sourceTree = "<group>"; };
+		393B6A041DEE25EA00923CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		393B6A9C1DEE53D200923CB2 /* Mii.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mii.h; sourceTree = "<group>"; };
+		393B6A9D1DEE53D200923CB2 /* WiiRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiiRemote.h; sourceTree = "<group>"; };
+		393B6A9E1DEE53D200923CB2 /* WiiRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiiRemote.m; sourceTree = "<group>"; };
+		393B6A9F1DEE53D200923CB2 /* WiiRemoteDiscovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiiRemoteDiscovery.h; sourceTree = "<group>"; };
+		393B6AA01DEE53D200923CB2 /* WiiRemoteDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiiRemoteDiscovery.m; sourceTree = "<group>"; };
+		393B6AA11DEE53D200923CB2 /* WiiRemotePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiiRemotePrivate.h; sourceTree = "<group>"; };
+		C43DC2A8F55267E6DC87465E /* Pods_WiiBalanceBoardMenuApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiiBalanceBoardMenuApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56CE2327763F0F71AE3B43B /* Pods-WiiBalanceBoardMenuApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiiBalanceBoardMenuApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WiiBalanceBoardMenuApp/Pods-WiiBalanceBoardMenuApp.release.xcconfig"; sourceTree = "<group>"; };
+		F9EB012366915C12254C053D /* Pods-WiiBalanceBoardMenuApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiiBalanceBoardMenuApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WiiBalanceBoardMenuApp/Pods-WiiBalanceBoardMenuApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		393B69DA1DEE25EA00923CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C2917AD5E7A5190D012788 /* Pods_WiiBalanceBoardMenuApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		393B69F01DEE25EA00923CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		393B69FB1DEE25EA00923CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		393B69D41DEE25EA00923CB2 = {
+			isa = PBXGroup;
+			children = (
+				393B6AA41DEE53D900923CB2 /* wiiRemoteFramework */,
+				393B69DF1DEE25EA00923CB2 /* WiiBalanceBoardMenuApp */,
+				393B69F61DEE25EA00923CB2 /* WiiBalanceBoardMenuAppTests */,
+				393B6A011DEE25EA00923CB2 /* WiiBalanceBoardMenuAppUITests */,
+				393B69DE1DEE25EA00923CB2 /* Products */,
+				8BE2E3FC95B066321ABC9F78 /* Pods */,
+				97E651ADD074434F4793BB11 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		393B69DE1DEE25EA00923CB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				393B69DD1DEE25EA00923CB2 /* WiiBalanceBoardMenuApp.app */,
+				393B69F31DEE25EA00923CB2 /* WiiBalanceBoardMenuAppTests.xctest */,
+				393B69FE1DEE25EA00923CB2 /* WiiBalanceBoardMenuAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		393B69DF1DEE25EA00923CB2 /* WiiBalanceBoardMenuApp */ = {
+			isa = PBXGroup;
+			children = (
+				393B69E01DEE25EA00923CB2 /* AppDelegate.h */,
+				393B69E11DEE25EA00923CB2 /* AppDelegate.m */,
+				393B69E61DEE25EA00923CB2 /* ViewController.h */,
+				393B69E71DEE25EA00923CB2 /* ViewController.m */,
+				393B69E91DEE25EA00923CB2 /* Assets.xcassets */,
+				393B69EB1DEE25EA00923CB2 /* Main.storyboard */,
+				393B69EE1DEE25EA00923CB2 /* Info.plist */,
+				393B69E31DEE25EA00923CB2 /* Supporting Files */,
+			);
+			path = WiiBalanceBoardMenuApp;
+			sourceTree = "<group>";
+		};
+		393B69E31DEE25EA00923CB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				393B69E41DEE25EA00923CB2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		393B69F61DEE25EA00923CB2 /* WiiBalanceBoardMenuAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				393B69F71DEE25EA00923CB2 /* WiiBalanceBoardMenuAppTests.m */,
+				393B69F91DEE25EA00923CB2 /* Info.plist */,
+			);
+			path = WiiBalanceBoardMenuAppTests;
+			sourceTree = "<group>";
+		};
+		393B6A011DEE25EA00923CB2 /* WiiBalanceBoardMenuAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				393B6A021DEE25EA00923CB2 /* WiiBalanceBoardMenuAppUITests.m */,
+				393B6A041DEE25EA00923CB2 /* Info.plist */,
+			);
+			path = WiiBalanceBoardMenuAppUITests;
+			sourceTree = "<group>";
+		};
+		393B6AA41DEE53D900923CB2 /* wiiRemoteFramework */ = {
+			isa = PBXGroup;
+			children = (
+				393B6A9C1DEE53D200923CB2 /* Mii.h */,
+				393B6A9D1DEE53D200923CB2 /* WiiRemote.h */,
+				393B6A9E1DEE53D200923CB2 /* WiiRemote.m */,
+				393B6A9F1DEE53D200923CB2 /* WiiRemoteDiscovery.h */,
+				393B6AA01DEE53D200923CB2 /* WiiRemoteDiscovery.m */,
+				393B6AA11DEE53D200923CB2 /* WiiRemotePrivate.h */,
+			);
+			name = wiiRemoteFramework;
+			path = WiiBalanceBoardMenuApp;
+			sourceTree = "<group>";
+		};
+		8BE2E3FC95B066321ABC9F78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB012366915C12254C053D /* Pods-WiiBalanceBoardMenuApp.debug.xcconfig */,
+				F56CE2327763F0F71AE3B43B /* Pods-WiiBalanceBoardMenuApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		97E651ADD074434F4793BB11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C43DC2A8F55267E6DC87465E /* Pods_WiiBalanceBoardMenuApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		393B69DC1DEE25EA00923CB2 /* WiiBalanceBoardMenuApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 393B6A071DEE25EA00923CB2 /* Build configuration list for PBXNativeTarget "WiiBalanceBoardMenuApp" */;
+			buildPhases = (
+				3534547E3D70F4C94E9CE525 /* [CP] Check Pods Manifest.lock */,
+				393B69D91DEE25EA00923CB2 /* Sources */,
+				393B69DA1DEE25EA00923CB2 /* Frameworks */,
+				393B69DB1DEE25EA00923CB2 /* Resources */,
+				0502A626E645EF9E5D305032 /* [CP] Embed Pods Frameworks */,
+				E2A83513C93FA46D3C49C835 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiiBalanceBoardMenuApp;
+			productName = WiiBalanceBoardMenuApp;
+			productReference = 393B69DD1DEE25EA00923CB2 /* WiiBalanceBoardMenuApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		393B69F21DEE25EA00923CB2 /* WiiBalanceBoardMenuAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 393B6A0A1DEE25EA00923CB2 /* Build configuration list for PBXNativeTarget "WiiBalanceBoardMenuAppTests" */;
+			buildPhases = (
+				393B69EF1DEE25EA00923CB2 /* Sources */,
+				393B69F01DEE25EA00923CB2 /* Frameworks */,
+				393B69F11DEE25EA00923CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				393B69F51DEE25EA00923CB2 /* PBXTargetDependency */,
+			);
+			name = WiiBalanceBoardMenuAppTests;
+			productName = WiiBalanceBoardMenuAppTests;
+			productReference = 393B69F31DEE25EA00923CB2 /* WiiBalanceBoardMenuAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		393B69FD1DEE25EA00923CB2 /* WiiBalanceBoardMenuAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 393B6A0D1DEE25EA00923CB2 /* Build configuration list for PBXNativeTarget "WiiBalanceBoardMenuAppUITests" */;
+			buildPhases = (
+				393B69FA1DEE25EA00923CB2 /* Sources */,
+				393B69FB1DEE25EA00923CB2 /* Frameworks */,
+				393B69FC1DEE25EA00923CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				393B6A001DEE25EA00923CB2 /* PBXTargetDependency */,
+			);
+			name = WiiBalanceBoardMenuAppUITests;
+			productName = WiiBalanceBoardMenuAppUITests;
+			productReference = 393B69FE1DEE25EA00923CB2 /* WiiBalanceBoardMenuAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		393B69D51DEE25EA00923CB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Matthias Vermeulen";
+				TargetAttributes = {
+					393B69DC1DEE25EA00923CB2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LR9C42P9Y5;
+						ProvisioningStyle = Automatic;
+					};
+					393B69F21DEE25EA00923CB2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LR9C42P9Y5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 393B69DC1DEE25EA00923CB2;
+					};
+					393B69FD1DEE25EA00923CB2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LR9C42P9Y5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 393B69DC1DEE25EA00923CB2;
+					};
+				};
+			};
+			buildConfigurationList = 393B69D81DEE25EA00923CB2 /* Build configuration list for PBXProject "WiiBalanceBoardMenuApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 393B69D41DEE25EA00923CB2;
+			productRefGroup = 393B69DE1DEE25EA00923CB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				393B69DC1DEE25EA00923CB2 /* WiiBalanceBoardMenuApp */,
+				393B69F21DEE25EA00923CB2 /* WiiBalanceBoardMenuAppTests */,
+				393B69FD1DEE25EA00923CB2 /* WiiBalanceBoardMenuAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		393B69DB1DEE25EA00923CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393B69EA1DEE25EA00923CB2 /* Assets.xcassets in Resources */,
+				393B69ED1DEE25EA00923CB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		393B69F11DEE25EA00923CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		393B69FC1DEE25EA00923CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0502A626E645EF9E5D305032 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WiiBalanceBoardMenuApp/Pods-WiiBalanceBoardMenuApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3534547E3D70F4C94E9CE525 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2A83513C93FA46D3C49C835 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WiiBalanceBoardMenuApp/Pods-WiiBalanceBoardMenuApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		393B69D91DEE25EA00923CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393B69E81DEE25EA00923CB2 /* ViewController.m in Sources */,
+				393B6AA31DEE53D200923CB2 /* WiiRemoteDiscovery.m in Sources */,
+				393B69E51DEE25EA00923CB2 /* main.m in Sources */,
+				393B69E21DEE25EA00923CB2 /* AppDelegate.m in Sources */,
+				393B6AA21DEE53D200923CB2 /* WiiRemote.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		393B69EF1DEE25EA00923CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393B69F81DEE25EA00923CB2 /* WiiBalanceBoardMenuAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		393B69FA1DEE25EA00923CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393B6A031DEE25EA00923CB2 /* WiiBalanceBoardMenuAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		393B69F51DEE25EA00923CB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 393B69DC1DEE25EA00923CB2 /* WiiBalanceBoardMenuApp */;
+			targetProxy = 393B69F41DEE25EA00923CB2 /* PBXContainerItemProxy */;
+		};
+		393B6A001DEE25EA00923CB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 393B69DC1DEE25EA00923CB2 /* WiiBalanceBoardMenuApp */;
+			targetProxy = 393B69FF1DEE25EA00923CB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		393B69EB1DEE25EA00923CB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				393B69EC1DEE25EA00923CB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		393B6A051DEE25EA00923CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		393B6A061DEE25EA00923CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		393B6A081DEE25EA00923CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9EB012366915C12254C053D /* Pods-WiiBalanceBoardMenuApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LR9C42P9Y5;
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = WiiBalanceBoardMenuApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Objc",
+					"-framework",
+					"\"CoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.noizystudios.WiiBalanceBoardMenuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		393B6A091DEE25EA00923CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F56CE2327763F0F71AE3B43B /* Pods-WiiBalanceBoardMenuApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LR9C42P9Y5;
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = WiiBalanceBoardMenuApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Objc",
+					"-framework",
+					"\"CoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.noizystudios.WiiBalanceBoardMenuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		393B6A0B1DEE25EA00923CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LR9C42P9Y5;
+				INFOPLIST_FILE = WiiBalanceBoardMenuAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.noizystudios.WiiBalanceBoardMenuAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiiBalanceBoardMenuApp.app/Contents/MacOS/WiiBalanceBoardMenuApp";
+			};
+			name = Debug;
+		};
+		393B6A0C1DEE25EA00923CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LR9C42P9Y5;
+				INFOPLIST_FILE = WiiBalanceBoardMenuAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.noizystudios.WiiBalanceBoardMenuAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiiBalanceBoardMenuApp.app/Contents/MacOS/WiiBalanceBoardMenuApp";
+			};
+			name = Release;
+		};
+		393B6A0E1DEE25EA00923CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LR9C42P9Y5;
+				INFOPLIST_FILE = WiiBalanceBoardMenuAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.noizystudios.WiiBalanceBoardMenuAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WiiBalanceBoardMenuApp;
+			};
+			name = Debug;
+		};
+		393B6A0F1DEE25EA00923CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LR9C42P9Y5;
+				INFOPLIST_FILE = WiiBalanceBoardMenuAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.noizystudios.WiiBalanceBoardMenuAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WiiBalanceBoardMenuApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		393B69D81DEE25EA00923CB2 /* Build configuration list for PBXProject "WiiBalanceBoardMenuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				393B6A051DEE25EA00923CB2 /* Debug */,
+				393B6A061DEE25EA00923CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		393B6A071DEE25EA00923CB2 /* Build configuration list for PBXNativeTarget "WiiBalanceBoardMenuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				393B6A081DEE25EA00923CB2 /* Debug */,
+				393B6A091DEE25EA00923CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		393B6A0A1DEE25EA00923CB2 /* Build configuration list for PBXNativeTarget "WiiBalanceBoardMenuAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				393B6A0B1DEE25EA00923CB2 /* Debug */,
+				393B6A0C1DEE25EA00923CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		393B6A0D1DEE25EA00923CB2 /* Build configuration list for PBXNativeTarget "WiiBalanceBoardMenuAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				393B6A0E1DEE25EA00923CB2 /* Debug */,
+				393B6A0F1DEE25EA00923CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 393B69D51DEE25EA00923CB2 /* Project object */;
+}
